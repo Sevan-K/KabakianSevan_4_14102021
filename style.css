@@ -729,7 +729,15 @@ h1 {
 h4 {
     color: #333333!important;
 }
-
+.quote{
+    font-size: 20px;
+    font-style: italic;
+    font-weight:400;
+    margin-top: 25px;
+}
+.author{
+    font-size: 15px;
+}
 .icons {
     margin-bottom: 14px;
     margin-top: 24px;
@@ -840,6 +848,7 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
 }
+
 
 @media (max-width: 1024px) {
     .bloc {
