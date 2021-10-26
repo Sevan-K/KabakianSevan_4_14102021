@@ -844,11 +844,11 @@ h4 {
 }
 
 .bg-banniere {
-  background-image: url("img/la-chouette-agence-banniere.jpg");
+  background-image: url("img/la-chouette-agence-banniere.webp");
 }
 
 .bg-presentation {
-  background-image: url("img/image-de-presentation.bmp");
+  background-image: url("img/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
@@ -1053,10 +1053,25 @@ h4 {
     padding-left: 0;
     padding-right: 0;
   }
+  .row.row-no-gutters.social {
+    margin: 20px 15vw;
+  }
 }
 
 @media (max-width: 767px) {
   .bloc-mob-center-text {
     text-align: center;
   }
+  /* changement de la structure du footer */
+  .row.row-no-gutters.social {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+/* ajout pour center le formulaire */
+.form-container {
+  width: 75%;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
 }
