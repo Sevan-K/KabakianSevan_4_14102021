@@ -54,6 +54,7 @@ a:hover {
 
 .bloc-sm {
   padding: 20px 50px;
+  width: 100%;
 }
 
 .bg-center,
@@ -1083,4 +1084,8 @@ h4 {
 .image-resize-mode {
   width: 100px;
   height: 100px;
+}
+a.ltc-white.bold-link{
+  display: block;
+  margin-top: 10px;
 }
